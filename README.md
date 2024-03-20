@@ -1,1 +1,1 @@
-# html-css-fundamentals
+# Scrimba HTML & CSS Fundamentals Challenge
