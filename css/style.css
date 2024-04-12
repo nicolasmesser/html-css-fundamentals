@@ -60,3 +60,17 @@ a:hover, a:focus {
   font-size: 16px;
   margin-top: 5px;
 }
+
+.btn {
+  display: inline-block;
+  color: #252525;
+  text-decoration: none;
+  background: #99d930;
+  padding: 10px 25px;
+  margin-top: 25px;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #252525;
+  color: #ffffff;
+}
