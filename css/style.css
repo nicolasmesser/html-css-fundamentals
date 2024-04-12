@@ -5,6 +5,27 @@ body {
   font-weight: 300;
 }
 
+.container {
+  margin: 0 auto;
+  width: 570px;
+}
+
+header, section {
+  padding: 100px 0;
+}
+
+header {
+  background-color: #d7d7d7;
+}
+
+.about-me {
+  background-color: #ffeaea;
+}
+
+.articles {
+  background-color: #eaf9ff;
+}
+
 h1, h2 {
   font-weight: 300;
 }
@@ -38,9 +59,4 @@ a:hover, a:focus {
 
 .small-text {
   font-size: 16px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 570px;
 }
