@@ -19,6 +19,11 @@ header, section {
   background-color: #252525;
 }
 
+.inverse .btn:hover, .inverse .btn:focus {
+  background: #ffffff;
+  color: #252525;
+}
+
 h1, h2 {
   font-weight: 300;
   margin-top: 0;
@@ -28,12 +33,20 @@ h1 {
   font-size: 60px;
 }
 
+h1 .accent-text {
+  font-size: 80px;
+}
+
 h2 {
   font-size: 42px;
   border-top: solid 1px #c4c4c4;
   border-bottom: solid 1px #c4c4c4;
   padding: 20px 0;
   margin-bottom: 20px;
+}
+
+h2 .accent-text {
+  font-size: 60px;
 }
 
 h3 {
@@ -55,9 +68,13 @@ a:hover, a:focus {
   color: #131313;
 }
 
-.bold-text {
-  font-weight: 900;
+.accent-text {
   display: block;
+}
+
+.accent-text, .name, time {
+  font-weight: 900;
+  color: #99d930;
 }
 
 .small-text {
